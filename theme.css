@@ -1,0 +1,13 @@
+/* 10 · The Star — deep blue night, one gold star, Cinzel capitals, no boxes: text floats on the sky */
+:root{--bg:#040817;--ink:#f1ead8;--ink-dim:rgba(241,234,216,.74);--accent:#f2c66d;--accent-ink:#1a1204;--panel:transparent;--panel-line:rgba(242,198,109,.3);--radius:0;
+ --f-display:'Cinzel','Cormorant Garamond',serif;--spark:#fff4cc,#f2c66d,#ffffff;--bloom:rgba(255,230,160,.85);--tint-bg:linear-gradient(180deg,rgba(2,6,20,.55),rgba(2,6,20,.9));--tint-max:.9;--burst-x:.5;--burst-y:.3;--focus:50% 30%;--orn:var(--o-star)}
+.op-title{font-family:'Cinzel',serif;text-transform:uppercase;letter-spacing:.14em;font-weight:500;font-size:clamp(26px,8.2vw,36px);line-height:1.25}
+.op-eyebrow{letter-spacing:.34em}
+.opening{justify-content:space-between}
+.panel{background:transparent;border:0;-webkit-backdrop-filter:none;backdrop-filter:none;padding:30px 6px}
+.h{font-family:'Cinzel',serif;font-weight:500;font-size:23px;letter-spacing:.16em;text-transform:uppercase}
+.row,.tl li,.course{border-top-color:rgba(242,198,109,.2)}
+.btn{border-radius:0;letter-spacing:.22em}.note,.cd div,.choice span,.f input:not([type]),.f textarea{border-radius:0}
+.tl time{font-family:'Cinzel',serif;font-size:17px}
+.v,.big{font-family:'Cinzel',serif;font-size:20px}
+.details.stack .big{font-size:21px;letter-spacing:.08em}
